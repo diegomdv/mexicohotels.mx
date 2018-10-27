@@ -49,7 +49,7 @@ googleAnalytics = ""
     id = "project1"
     type = "text"
     title = "¿Qué hacemos?"
-    description = "Hacemos proyectos de esfuerzos digitales para apoyar a la industria turística mexicana.</p><p><b>Instagram <a href='https://instagram.com/mexicohotels' target='_blank'>@MexicoHotels</a></b><br /><br />A través de generar una excelente relación con los hoteles de México, y con nuestra experiencia en redes sociales, dar a conocer las ventajas de la hotelería mexicana en el mundo."
+    description = "Hacemos proyectos y esfuerzos digitales para apoyar a la industria turística mexicana.</p><p><b>Instagram <a href='https://instagram.com/mexicohotels' target='_blank'>@MexicoHotels</a></b><br /><br />A través de generar una excelente relación con los hoteles de México, y con nuestra experiencia en redes sociales, dar a conocer las ventajas de la hotelería mexicana en el mundo."
     buttontext = "siguiente"
     # the picture is stored at static/images/
     picture = ""
