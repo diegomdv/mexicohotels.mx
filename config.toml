@@ -1,0 +1,179 @@
+# Site settings
+baseurl = "https://mexicohotels.mx"
+languageCode = "en-us"
+title = "Mexico Hotels"
+theme = "hugo-highlights-theme"
+
+# Enter your tracking code to enable Google analytics
+googleAnalytics = ""
+
+[params]
+
+  # You can use Markdown for urls [text](//domain.tld/source)
+  #
+  # All icons using Fontawesom's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons.
+
+  # To provide more meta data for search engings feel free to add a few informations.
+  # This lines will be inserted as meta tags.
+  name = "Mexico Hotels"
+  description = "Iniciativa digital altruista para promover la industria turística mexicana."
+
+  # For a static site it's not possible to provide a contact form. The contact form uses
+  # www.formspree.io as a proxy. The form makes a Post request to their servers to send an email
+  # Visitors can send up to a 1000 emails each month
+  #
+  # How to setup formspree
+  #
+  # - set your email address under 'email' below
+  # - upload the generated site to your server
+  # - send a dummy email to yourself to confirm your account
+  # - click the confirmation link in the email from www.formspree.io
+  # - That's all. Enjoy mailing!
+  email = "contacto@mexicohotels.com"
+
+  # If this param is set to true, every section gets an own background image (located at static/images)
+  # to change the image you could use the param picture on every section.
+  # If it's disabled you could change the background to overwrite the bg.jpg and overlay.png to set the background.
+  backgroundpersection = false
+
+  # hero Section
+  [params.hero]
+    type = "hero"
+    title = "Mexico Hotels MX"
+    description = "Iniciativa digital altruista para promover la industria turística mexicana."
+    buttontext = "iniciar"
+
+  # about section
+  [[params.block]]
+    id = "project1"
+    type = "text"
+    title = "¿Qué hacemos?"
+    description = "Hacemos proyectos de esfuerzos digitales para apoyar a la industria turística mexicana.</p><p><b>Instagram <a href='https://instagram.com/mexicohotels' target='_blank'>@MexicoHotels</a></b><br /><br />A través de generar una excelente relación con los hoteles de México, y con nuestra experiencia en redes sociales, dar a conocer las ventajas de la hotelería mexicana en el mundo."
+    buttontext = "siguiente"
+    # the picture is stored at static/images/
+    picture = ""
+
+  # about section
+  [[params.block]]
+    id = "about"
+    type = "text"
+    title = "¿Quiénes somos?"
+    description = "Somos un grupo de profesionales del turismo con la idea de ayudar a promover la industria turística mexicana."
+    buttontext = "siguiente"
+    # the picture is stored at static/images/
+    picture = ""
+
+  # skill section
+  [[params.block]]
+    id = "flor"
+    type = "list"
+    title = "Florencia Cavallaro"
+    description = "Fotógrafa creativa e innovadora, dedicada a la fotografía hotelera, turística e inmoviliaria, amante de los paisajes y de capturar el mejor ángulo de cada lugar. <br /><br /> <a href='https://florcavallaro.com/' target='_blank'><img src='/images/flor-cavallaro.jpg' /></a>"
+    buttontext = "next"
+    # the picture is stored at static/images/
+    picture = "pic02.jpg"
+    weblink = "www.florcavallaro.com"
+
+    [[params.block.item]]
+      icon = "fa-camera"
+      title = "Fotografía"
+
+    [[params.block.item]]
+      icon = "fa-hotel"
+      title = "Hotelería"
+
+    [[params.block.item]]
+      icon = "fa-home"
+      title = "Inmobiliaria"
+
+    [[params.block.item]]
+      icon = "fa-image"
+      title = "Turismo"
+
+  # skill section
+  [[params.block]]
+    id = "diego"
+    type = "list"
+    title = "Diego M. Del Vecchio"
+    description = "Experto en eCommerce y Ventas, ayuda a diferentes marcas a diseñar y ejecutar estrategias exitosas de venta en línea.  <a href='https://dmdv.me/' target='_blank'><img src='/images/diego-del.vecchio.jpg' /></a>"
+    buttontext = "siguiente"
+    # the picture is stored at static/images/
+    picture = ""
+    weblink = "www.dmdv.me"
+
+    [[params.block.item]]
+      icon = "fa-cart-arrow-down"
+      title = "eCommerce"
+
+    [[params.block.item]]
+      icon = "fa-hotel"
+      title = "Hotelería y Turismo"
+
+    [[params.block.item]]
+      icon = "fa-instagram"
+      title = "Redes Sociales"
+
+    [[params.block.item]]
+      icon = "fa-credit-card"
+      title = "Estrategias y Ventas"
+
+  # contact form
+  [[params.block]]
+    id = "contact"
+    type = "contact"
+    title = "Contáctanos"
+    picture = ""
+
+    [params.block.form]
+      name = "Tu Nombre"
+      email = "Tu Email"
+      message = "Tu Mensaje"
+      buttontext = "Enviar"
+
+  # footer section
+  # this section includes last block and social icons
+
+  [params.footer]
+    enable = true
+
+    # social icons
+    [params.footer.social_list]
+      enable = true
+
+      [[params.footer.social]]
+        title = "Twitter"
+        icon = "fa-twitter"
+        link = "https://twitter.com/MexicoHotelsMX"
+
+#      [[params.footer.social]]
+#        title = "Facebook"
+#        icon = "fa-facebook"
+#        link = "#"
+
+      [[params.footer.social]]
+        title = "Instagramm"
+        icon = "fa-instagram"
+        link = "https://instagram.com/mexicohotels"
+
+#      [[params.footer.social]]
+#        title = "Dribbble"
+#        icon = "fa-dribbble"
+#        link = "#"
+
+      [[params.footer.social]]
+        title = "Email"
+        icon = "fa-envelope"
+        link = "contacto@hotelsmexico.mx"
+
+    # copyright
+    #[params.footer.copyright.notice]
+
+      [[params.footer.copyright.notice]]
+        text = "© Mexico Hotels MX"
+
+#      [[params.footer.copyright.notice]]
+#        text = "Design: [HTML5UP](//html5up.net)"
+
+#      [[params.footer.copyright.notice]]
+#        text = "Demo Images: [Unsplash](//unsplash.com/)"
