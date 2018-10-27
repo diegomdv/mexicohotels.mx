@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://mexicohotels.mx"
+baseurl = "https://mexicohotels.mx/"
 languageCode = "en-us"
 title = "Mexico Hotels"
 theme = "hugo-highlights-theme"
