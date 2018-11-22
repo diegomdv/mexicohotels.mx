@@ -5,7 +5,7 @@ title = "Mexico Hotels"
 theme = "hugo-highlights-theme"
 
 # Enter your tracking code to enable Google analytics
-googleAnalytics = ""
+googleAnalytics = "UA-283580-27"
 
 [params]
 
